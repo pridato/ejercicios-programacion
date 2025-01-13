@@ -22,16 +22,16 @@ public class Ejercicio_leer_una_oracion {
 		System.out.println("Escribe una frase:");
 		
 		String frase = leer.nextLine();
-int contador=1;
+		int contador=1;
 		//String[] palabras= frase.split(" ");
 
 		for(int i=0; i<frase.length();i++)
 		{
-			
 			char palabra= frase.charAt(i);
 			
-			if(palabra==' ')
-				contador++;
+			if(palabra==' ') 
+			
+			contador++;
 			
 			
 		}
@@ -39,10 +39,7 @@ int contador=1;
 		
 		
 //System.out.println(palabras.length);
-		
-		
-		
-		
+
 
 	}
 
